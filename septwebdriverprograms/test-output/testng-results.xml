@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38717" started-at="2017-11-18T03:51:43Z" finished-at="2017-11-18T03:52:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38717" started-at="2017-11-18T03:51:43Z" finished-at="2017-11-18T03:52:22Z">
+      <class name="testngnew.FacebookTestFromExcel">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testngnew.FacebookTestFromExcel@548e7350]" name="beforeClass" is-config="true" duration-ms="2195" started-at="2017-11-17T22:51:43Z" finished-at="2017-11-17T22:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="facebookTestExcel()[pri:0, instance:testngnew.FacebookTestFromExcel@548e7350]" name="facebookTestExcel" duration-ms="34381" started-at="2017-11-17T22:51:45Z" finished-at="2017-11-17T22:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookTestExcel -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testngnew.FacebookTestFromExcel@548e7350]" name="afterClass" is-config="true" duration-ms="2125" started-at="2017-11-17T22:52:20Z" finished-at="2017-11-17T22:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testngnew.FacebookTestFromExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

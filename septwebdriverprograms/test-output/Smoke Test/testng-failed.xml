@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]">
+  <test name="Smoke Testcases(failed)">
+    <classes>
+      <class name="testngnew.FacebookDataDrivenTest">
+        <methods>
+          <include name="facebookTest"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testngnew.FacebookDataDrivenTest -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

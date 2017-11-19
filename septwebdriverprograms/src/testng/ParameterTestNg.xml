@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParameterSuite">
+  <test name="ParametersTesy">
+  <Parameter name="uname value="nerus123@gmail.com"/>
+  <Parameter name=pwd" value="minisha123"/>
+  
+    <classes>
+      <class name="testng.FcebookParameter"/>
+    </classes>
+  </test> <!-- ParametersTesy -->
+</suite> <!-- ParameterSuite -->

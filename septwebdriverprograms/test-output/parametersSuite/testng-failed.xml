@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [parametersSuite]">
+  <test name="parameterTest(failed)">
+    <parameter name="uname" value="nerus123@gmail.com"/>
+    <parameter name="pass" value="cherry123"/>
+    <classes>
+      <class name="testngdemo.ParamterAnnotation">
+        <methods>
+          <include name="facebookParameter"/>
+        </methods>
+      </class> <!-- testngdemo.ParamterAnnotation -->
+    </classes>
+  </test> <!-- parameterTest(failed) -->
+</suite> <!-- Failed suite [parametersSuite] -->
